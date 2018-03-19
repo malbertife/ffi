@@ -47,6 +47,7 @@ A = 66197957.
   - Make sure [libffi](https://sourceware.org/libffi/) is installed.
     This is available as package on various systems.
   - Clone this repo
+  - In the cloned directory, run `autoconf`
   - Make a link from the `.../swipl/pack/ffi` to the cloned directory
   - Run in Prolog: `?- pack_rebuild(ffi).`
 
